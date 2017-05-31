@@ -21,6 +21,32 @@ header img{
     height: 92px;
 }
 
+
+.generator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    margin: 50px auto;
+}
+
+.btn{
+    width: 200px;
+    background-color: #6F4688;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    border-radius: 3px;
+    border: 1px solid rgba(255,255,255,.5);
+    font-size: 16px;
+    text-shadow: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+#upload{
+    display: none;
+}
+
 footer{
     display: flex;
     flex-direction: column;
