@@ -64,7 +64,7 @@ header img{
     cursor: pointer;
 }
 
-.download-btn{
+#result-img, .download-btn{
     margin-bottom: 10px;
 }
 
@@ -96,7 +96,7 @@ footer{
     background: linear-gradient(#6F4688,#462456); /* Standard syntax */
 }
 
-footer p{
+#result p, footer p{
     margin: 5px auto;
     text-align: center;
 }

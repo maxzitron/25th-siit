@@ -18,16 +18,21 @@
     </header>
     <section>
         <div class="generator">
+            <div id="result" class="hidden">
+                <canvas width="1024" height="1024" id="canvas" class="hidden"></canvas>
+                <p>Right Click and Save image</p>
+                <img id="result-img" src="#" width="280px" height="280px"/>
+            </div>
             <div class="editor">
                 <div class="cropper hidden">
                     <div class="frame">
-                        <img id="badge-overlay-left" src="/img/badge_left_1200.png">
+                        <img id="badge-overlay-left" src="assets/frame.png" width="280px" height="280px">
                     </div>
                 </div>
             </div>
             <div  class="actions">
                 <input type="file" id="upload" value="Choose a file" accept="image/*">
-                <a class="btn download-btn hidden">Save Image</a>
+                <a class="btn download-btn hidden">Done</a>
                 <a class="btn uplopad-btn">Choose an Image to begin</a>
             </div>
             <p class="disclaimer">Your image won't be uploaded to the internet<br/> All processes will be done locally on your divice</p>
@@ -35,7 +40,7 @@
     </section>
     <footer>
         <p>This is not an official SIIT website .</p>
-        <p>The image frame and generation system were created by alumnus to share our proud of being part of this institute</p>
+        <p>The image frame and generation system were created by alumnus to share our proud of being part of SIIT</p>
     </footer>
 </body>
 </html>
