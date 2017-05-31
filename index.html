@@ -6,10 +6,10 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/croppie/2.4.1/croppie.min.css" rel="stylesheet">
     <link href="assets/styles.css" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/croppie/2.4.1/croppie.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
             integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
             crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/croppie/2.4.1/croppie.min.js"></script>
     <script src="assets/script.js"></script>
 </head>
 <body>
@@ -18,12 +18,18 @@
     </header>
     <section>
         <div class="generator">
-            <div>
+            <div class="editor">
+                <div class="cropper hidden">
+                    <div class="frame">
+                        <img id="badge-overlay-left" src="/img/badge_left_1200.png">
+                    </div>
+                </div>
             </div>
-            <a class="btn">
-                <span>Choose an Image</span>
+            <div  class="actions">
                 <input type="file" id="upload" value="Choose a file" accept="image/*">
-            </a>
+                <a class="btn download-btn hidden">Save Image</a>
+                <a class="btn uplopad-btn">Choose an Image to begin</a>
+            </div>
         </div>
     </section>
     <footer>
