@@ -18,7 +18,7 @@ header{
 }
 
 header img{
-    height: 92px;
+    height: 70%;
 }
 
 .hidden{
@@ -30,7 +30,7 @@ header img{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 500px;
+    width: 320px;
     height: calc(100vh - 206px);
     margin: auto;
 }
@@ -73,7 +73,9 @@ header img{
     height:0;
     width:0;
 }
-
+.disclaimer{
+    text-align: center;
+}
 footer{
     display: flex;
     flex-direction: column;
@@ -96,5 +98,5 @@ footer{
 
 footer p{
     margin: 5px auto;
-
+    text-align: center;
 }

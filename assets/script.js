@@ -42,7 +42,7 @@ $(document).ready(function () {
     })
 
     $('#upload').change(function() {
-        $('.cropper').removeClass('hidden');
+        $('.cropper, .download-btn').removeClass('hidden');
         $('.uplopad-btn').text("New Image");
         readFile(this);
     });
